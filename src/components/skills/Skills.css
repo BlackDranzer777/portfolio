@@ -1,0 +1,72 @@
+.skills{
+    /* padding-top: 20px; */
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    /* flex-direction: c; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.skills-white{
+    /* padding-top: 20px; */
+    height: 100vh;
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    /* flex-direction: c; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.skills-texts{
+    padding-left: 30px;
+    display: flex;
+    flex: 1;
+    /* align-items: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* background-color: blue; */
+}
+
+.skills-description{
+    padding-top: 10px;
+    text-align: justify;
+    width: 90%;
+    /* background-color: blueviolet; */
+}
+
+.skills-title{
+    color: #ffc500;
+}
+
+.skills-title-white{
+    color: #4d4a4a;
+}
+
+.skills-list{
+    /* padding-top: 30px ; */
+    /* width: 100%; */
+    display: flex;
+    flex: 1;
+    /* background-color: brown; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* overflow-x: auto; */
+    justify-content:space-evenly;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* align-items:; */
+    /* min-width: 100%; */
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 680px) {
+    .skills{
+        flex-direction: column;
+    }
+    .skills-white{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,9 @@
+.App{
+    scroll-snap-type: x proximity;
+    background-color: black;
+}
+
+.App-white{
+    scroll-snap-type: x proximity;
+    background-color: white;
+}

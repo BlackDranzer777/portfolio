@@ -1,0 +1,90 @@
+.toggle{
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.toggle-language{
+    font-size: 12px;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.toggle-white{
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: #483475;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.toggle-white-language{
+    width: 50px;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: #483475;
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.toggle-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.toggle-icon-language{
+    width: 15px;
+    height: 15px;
+}
+
+.toggle-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    cursor: pointer;
+}
+
+.toggle-button-language{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    cursor: pointer;
+}
